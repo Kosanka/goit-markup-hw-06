@@ -520,9 +520,7 @@ background-color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-    
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
 .service-filter-btn:hover, .service-filter-btn:focus {
@@ -632,7 +630,7 @@ background-color: #404BBF;
      0px 1px 3px rgba(0, 0, 0, 0.12), 
      0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    padding: 72px 24px 24px 24px;
 }
 .modal-close-btn {
     position: absolute;
@@ -665,4 +663,158 @@ background-color: #404BBF;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+
+.modal-title {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+.contact-form-field-wrapper, .contact-form-checkbox-wrapper {
+    display: block;
+}
+
+.contact-form-wrapper {
+    margin-bottom: 8px;
+    
+}
+
+.contact-form-field-desc {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.contact-form-input-wrapper {
+    position: relative;
+    display: block;
+}
+
+.contact-form-input {
+    
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    padding-left: 38px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form-input:hover, .contact-form-input:focus {
+    outline: none;
+    border-color: #4D5AE5;
+}
+
+.contact-form-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+}
+
+.contact-form-input:hover,
+.contact-form-input:focus + .contact-form-icon {
+    fill: #4D5AE5;
+}
+
+.contact-form-comment {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form-comment::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+        padding-top: 8px;
+        padding-left: 16px;
+}
+
+.contact-form-comment:hover,
+.contact-form-comment:focus {
+    outline: none;
+    border-color: #4D5AE5;
+}
+
+.contact-form-checkbox {
+    appearance: none;
+    position: absolute;
+}
+
+.contact-form-own-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    cursor: pointer;
+    fill: #F4F4FD;
+}
+
+.contact-form-checkmark-icon {
+    opacity: 0;
+}
+
+.contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
+    opacity: 1;
+}
+
+.contact-form-checkbox:checked+.contact-form-own-checkbox {
+    background-color: var(--accent-color);
+}
+
+.contact-form-checkbox-policy {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.contact-form-btn {
+    display: block;
+    padding: 16px 32px 16px 32px;
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
+}
+
+.contact-form-btn:hover,
+.contact-form-btn:focus {
+    background-color: var(--accent-color);
 }
