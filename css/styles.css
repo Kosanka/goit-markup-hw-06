@@ -569,7 +569,7 @@ display: block;
 
 .footer-form-btn-icon {
     position: absolute;
-    
+    margin-left: 16px;
     top: 8px;
     right: 24px;
     
@@ -775,6 +775,7 @@ display: block;
 
 .contact-form-wrapper {
     margin-bottom: 8px;
+    margin-bottom: 16px
     
 }
 
@@ -800,6 +801,7 @@ display: block;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
+    outline: transparent;
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

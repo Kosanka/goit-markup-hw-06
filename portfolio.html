@@ -359,20 +359,25 @@
         <div class="subscribe">
           <p class="footer-text-subscribe">Subscribe</p>
           <form class="footer-form">
-            <label
-              class="footer-form-wrapper"
-              for="user-email-subscribe"
-            ></label>
-            <input
-              class="footer-form-input"
-              type="email"
-              name="user_email"
-              id="user-email-subscribe"
-              pattern="[a-zA-Z0-9@-_]"
-              placeholder="E-mail"
-            />
+            <label class="footer-form-wrapper">
+              <input
+                name="user-email-subscribe"
+                class="footer-form-input"
+                type="email"
+                pattern="[a-zA-Z0-9@-_]"
+                placeholder="E-mail"
+            /></label>
+
             <button type="submit" class="footer-subscribe-btn">
               Subscribe
+              <svg
+                class="footer-form-btn-icon"
+                aria-label="icon-frame"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
             </button>
           </form>
         </div>
