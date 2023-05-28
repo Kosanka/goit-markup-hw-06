@@ -917,13 +917,7 @@ display: block;
 } */
 
 .contact-form-checkbox-policy {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
+    color: #4d5ae5;
 }
 
 .contact-form-btn {
