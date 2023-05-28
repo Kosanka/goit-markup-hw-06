@@ -878,6 +878,13 @@ display: block;
     position: absolute;
 }
 
+.contact-form-checkbox-wrapper {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
 .contact-form-own-checkbox {
     width: 16px;
     height: 16px;
