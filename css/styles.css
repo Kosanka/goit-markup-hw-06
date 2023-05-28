@@ -896,14 +896,16 @@ display: block;
     fill: #F4F4FD;
 }
 
-.contact-form-checkbox:checked + .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-icon-checkbox {
 
     background-color: var(--accent-color);
     border: none;
     fill: var(--primary-text-color-white);
     border-color: var(--accent-color);
 }
-
+/*тебе нужно через селекторы обратиться к label у которого сосед span,
+у которого ребенок input и прописпть то,
+что просит автопроверка*/
 /* .contact-form-checkmark-icon {
     opacity: 0;
 }
