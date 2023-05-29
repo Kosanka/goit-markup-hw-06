@@ -863,30 +863,30 @@ display: block;
 }
 
 .contact-form-checkbox-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+   
 }
 
-.contact-form-checkbox {
+.visually-hidden {
     appearance: none;
     position: absolute;
 }
 
 .contact-form-icon-checkbox {
-    display: inline-flex;
+    
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    cursor: pointer;
+    margin-right: 8px;
 }
 
 .contact-form-own-checkbox {
@@ -894,7 +894,6 @@ display: block;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    cursor: pointer;
     fill: #F4F4FD;
 }
 
