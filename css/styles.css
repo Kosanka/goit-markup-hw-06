@@ -873,6 +873,11 @@ display: block;
     color: #8e8f99;
 }
 
+.contact-form-checkbox {
+    appearance: none;
+    position: absolute;
+}
+
 .contact-form-icon-checkbox {
     display: inline-flex;
     width: 16px;
@@ -882,11 +887,6 @@ display: block;
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-
-.contact-form-checkbox {
-    appearance: none;
-    position: absolute;
 }
 
 .contact-form-own-checkbox {
